@@ -6,9 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="x.x.x" />
-    <PackageReference Include="xUnit" Version="x.x.x" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="x.x.x" />
+    <!-- Replace with actual versions -->
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="xUnit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
   </ItemGroup>
 
 </Project>
