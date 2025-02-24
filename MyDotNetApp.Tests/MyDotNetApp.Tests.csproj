@@ -1,15 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Test">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <IsPackable>false</IsPackable>
+    <TargetFramework>net6.0</TargetFramework> <!-- or whatever version you're targeting -->
+    <IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.3.0" />
-    <PackageReference Include="xunit" Version="2.4.1" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="x.x.x" />
+    <PackageReference Include="xUnit" Version="x.x.x" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="x.x.x" />
   </ItemGroup>
 
 </Project>
